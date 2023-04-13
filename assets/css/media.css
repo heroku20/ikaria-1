@@ -1,0 +1,108 @@
+@media only screen and (max-width: 912px) {
+    #ads-fixed,
+    #discount3,
+    #ikariajuice .container ul {
+        display: none !important;
+    }
+    #ikariajuice .d-f {
+        flex-direction: column;
+    }
+    #ikariajuice .w-6 {
+        width: 100%;
+    }
+    /* offer */
+    .offer .d-f .w-33 h3 {
+        font-size: 2.5rem;
+    }
+    .offer a {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .offer .d-f .w-33 h3 {
+        font-size: 2rem;
+    }
+    .offer .jb-6 .text-red {
+        font-size: 40px;
+    }
+    .offer .jb-3 p {
+        font-size: 1.5rem;
+    }
+    .offer a {
+        font-size: 2rem;
+    }
+    .offer .w-33 .text-wrapper .w-6 p {
+        font-size: 5rem;
+    }
+    .offer .jb-6 img {
+        height: 8rem;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    p,
+    li {
+        font-size: 18px;
+    }
+    .container {
+        padding: 20px 10px;
+    }
+    #discount {
+        display: none !important;
+    }
+    .d-b>.d-f {
+        flex-direction: column;
+    }
+    .d-b>.d-f .w-33 {
+        width: 100%;
+    }
+    .d-n {
+        display: block;
+    }
+    .offer .text {
+        height: 100px;
+    }
+    .offer .credit-card {
+        margin-top: 20px;
+    }
+    .offer .d-n img {
+        height: auto;
+    }
+    #ingredient .d-f {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #ingredient .w-3 {
+        text-align: center;
+        width: 100%;
+    }
+    #ingredient .w-7 {
+        width: 100%;
+    }
+    #ingredient .w-7 h3 {
+        text-align: center;
+    }
+    #money-back .container {
+        background: none;
+        padding: 0;
+    }
+    #money-back .content h3 {
+        font-size: 2rem;
+    }
+    #money-back .content-sub {
+        padding: 170px 0 0 0;
+    }
+    #you-will a {
+        font-size: 1.2rem;
+    }
+    .offer .credit-card p {
+        font-size: 1.2rem;
+    }
+}
